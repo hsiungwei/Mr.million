@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E883B22223107290032D510 /* man.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E883B21223107290032D510 /* man.png */; };
+		1E883B26223109380032D510 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E883B25223109380032D510 /* test.png */; };
+		1E883B2822310B920032D510 /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E883B2722310B920032D510 /* Topic.swift */; };
 		1EDED9EB2230EAE4002D3A81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDED9EA2230EAE4002D3A81 /* AppDelegate.swift */; };
 		1EDED9ED2230EAE4002D3A81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDED9EC2230EAE4002D3A81 /* ViewController.swift */; };
 		1EDED9F02230EAE4002D3A81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EDED9EE2230EAE4002D3A81 /* Main.storyboard */; };
 		1EDED9F32230EAE4002D3A81 /* Mr_million.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1EDED9F12230EAE4002D3A81 /* Mr_million.xcdatamodeld */; };
-		1EDED9F52230EAE5002D3A81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EDED9F42230EAE5002D3A81 /* Assets.xcassets */; };
 		1EDED9F82230EAE5002D3A81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EDED9F62230EAE5002D3A81 /* LaunchScreen.storyboard */; };
+		1EDEDA022230FD6F002D3A81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EDEDA012230FD6F002D3A81 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E883B21223107290032D510 /* man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = man.png; sourceTree = "<group>"; };
+		1E883B25223109380032D510 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+		1E883B2722310B920032D510 /* Topic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
 		1EDED9E72230EAE4002D3A81 /* Mr.million.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mr.million.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EDED9EA2230EAE4002D3A81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EDED9EC2230EAE4002D3A81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1EDED9EF2230EAE4002D3A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1EDED9F22230EAE4002D3A81 /* Mr_million.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mr_million.xcdatamodel; sourceTree = "<group>"; };
-		1EDED9F42230EAE5002D3A81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EDED9F72230EAE5002D3A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EDED9F92230EAE5002D3A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EDEDA012230FD6F002D3A81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +64,11 @@
 			children = (
 				1EDED9EA2230EAE4002D3A81 /* AppDelegate.swift */,
 				1EDED9EC2230EAE4002D3A81 /* ViewController.swift */,
+				1E883B2722310B920032D510 /* Topic.swift */,
 				1EDED9EE2230EAE4002D3A81 /* Main.storyboard */,
-				1EDED9F42230EAE5002D3A81 /* Assets.xcassets */,
+				1EDEDA012230FD6F002D3A81 /* Assets.xcassets */,
+				1E883B25223109380032D510 /* test.png */,
+				1E883B21223107290032D510 /* man.png */,
 				1EDED9F62230EAE5002D3A81 /* LaunchScreen.storyboard */,
 				1EDED9F92230EAE5002D3A81 /* Info.plist */,
 				1EDED9F12230EAE4002D3A81 /* Mr_million.xcdatamodeld */,
@@ -126,7 +135,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EDED9F82230EAE5002D3A81 /* LaunchScreen.storyboard in Resources */,
-				1EDED9F52230EAE5002D3A81 /* Assets.xcassets in Resources */,
+				1E883B26223109380032D510 /* test.png in Resources */,
+				1EDEDA022230FD6F002D3A81 /* Assets.xcassets in Resources */,
+				1E883B22223107290032D510 /* man.png in Resources */,
 				1EDED9F02230EAE4002D3A81 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EDED9F32230EAE4002D3A81 /* Mr_million.xcdatamodeld in Sources */,
+				1E883B2822310B920032D510 /* Topic.swift in Sources */,
 				1EDED9ED2230EAE4002D3A81 /* ViewController.swift in Sources */,
 				1EDED9EB2230EAE4002D3A81 /* AppDelegate.swift in Sources */,
 			);
@@ -287,7 +299,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FDCGR4ZUEW;
 				INFOPLIST_FILE = Mr.million/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +318,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FDCGR4ZUEW;
 				INFOPLIST_FILE = Mr.million/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
